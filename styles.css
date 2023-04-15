@@ -1,0 +1,97 @@
+body {
+ background-color: #FFF6F4;
+}
+
+.title {
+    text-align: center;
+    font-family: 'Rajdhani', sans-serif;
+    color: #798897;
+    font-size: 4rem;
+}
+
+.instruct {
+    text-align: center;
+    font-family: 'Rajdhani', sans-serif;
+    margin: 0 0 4rem 0;
+    color: #798897;
+    font-weight: 400;
+    font-size: 2rem;
+}
+
+.result {
+    text-align: center;
+    font-family: 'Rajdhani', sans-serif;
+    color: #798897;
+    font-size: 2rem;
+}
+
+.player-name {
+    text-align: center;
+    font-family: 'Rajdhani', sans-serif;
+    margin: 4rem 0 2rem 0;
+    color: white;
+}
+
+.dice-img-1 {
+    margin: 2rem auto 4rem auto;
+    border-radius: 5%;
+}
+
+.dice-img-2 {
+    margin: 2rem auto 4rem auto;
+    border-radius: 5%;
+}
+
+.creator {
+    text-align: center;
+    font-family: 'Rajdhani', sans-serif;
+    padding: 4rem 0 4rem 0;
+    color: #ec4c4c;
+}
+
+.size-up-1 {
+    font-size: 1.5rem;
+}
+
+.size-up-2 {
+    font-size: 3rem;
+}
+
+/* CSS Grid */
+
+.container {
+    display: grid;
+    grid-template-rows: 1 1  ;
+    grid-template-columns: 1 1 ;
+    background-color: #ec4c4c;
+    margin: 0 5% 0 5%;
+    border-radius: 3px;
+}
+
+.item-1 {
+    grid-row-start: 1;
+    grid-row-end: 2;
+    grid-column-start:1 ;
+    grid-column-end: 2;
+}
+
+.item-2 {
+    grid-row-start: 1;
+    grid-row-end: 2;
+    grid-column-start:2 ;
+    grid-column-end: 3;
+}
+
+.item-3 {
+    grid-row-start: 2;
+    grid-row-end: 3;
+    grid-column-start:1 ;
+    grid-column-end: 2;
+}
+
+.item-4 {
+    grid-row-start: 2;
+    grid-row-end: 3;
+    grid-column-start:2 ;
+    grid-column-end: 3;
+}
