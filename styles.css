@@ -25,6 +25,17 @@ body {
     font-size: 2rem;
 }
 
+.refresh-btn {
+    background-color: #ec4c4c;
+    font-family: 'Rajdhani', sans-serif;
+    color: #FFF6F4;
+    border: none;
+    font-size: 3rem;
+    font-style: italic;
+    border-radius: 2px;
+    padding: 10px;
+}
+
 .player-name {
     text-align: center;
     font-family: 'Rajdhani', sans-serif;
