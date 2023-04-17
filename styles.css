@@ -95,3 +95,13 @@ body {
     grid-column-start:2 ;
     grid-column-end: 3;
 }
+
+@media (max-width: 614px) {
+    .dice-img-1 {
+        width: 60%;
+    }
+
+    .dice-img-2 {
+        width: 60%;
+    }
+}
