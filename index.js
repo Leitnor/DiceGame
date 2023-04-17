@@ -17,3 +17,7 @@ else if (randomNumber1 > randomNumber2){
 else if (randomNumber1 < randomNumber2){
     document.querySelector("h2").innerHTML = "Player Two Wins!"
 }
+
+function refresh() {
+    window.location.reload("Refresh");
+}
